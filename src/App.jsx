@@ -8,7 +8,7 @@ function App() {
       <h1>To-do list</h1>
       <ul className="list">
         {todoList.map((todo) => (
-          <ListItem data={todo}></ListItem>
+          <ListItem data={todo} key={todo.id}></ListItem>
         ))}
       </ul>
     </>

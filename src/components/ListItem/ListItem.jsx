@@ -7,7 +7,7 @@ const ListItem = ({ data }) => {
   };
 
   return (
-    <li key={data.id} className={completed} onClick={handleClick}>
+    <li className={completed} onClick={handleClick}>
       {data.todo}
     </li>
   );
